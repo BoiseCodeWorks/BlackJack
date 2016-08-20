@@ -74,3 +74,9 @@ There are card PNG images in the 'img' folder with filenames that match the card
 There is also a card back image file named 'back.png'.
 
 A links to Bootstrap and Font Awesome are already in index.html.
+
+<br>
+
+#### Bonus Challenge
+
+Start the player with a bankroll and enable betting. Adjust the players bankroll with each win/loss.
