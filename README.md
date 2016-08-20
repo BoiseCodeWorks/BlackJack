@@ -8,7 +8,7 @@
 2. After the deal, 2 rows of cards should be visible, the dealers above the players. One of the dealer's cards should be face down. All of the players cards should be face up.
 3. After the deal, the 'Play' button should be replaced by a 'Hit' button and a 'Stand' button.
 4. When the hand is over, an alert should indicate who the winner is.
-5. After the hand is over, the 'Hit' button should be replaced by the 'Play Again' button.
+5. After the hand is over, the 'Hit' and 'Stand' buttons should be replaced by the 'Play Again' button.
 
 <br>
 
@@ -20,16 +20,16 @@ When the 'Play' or 'Play Again' button is clicked:
 2. Deal the first card up to the player's hand & the first card down to the dealer's hand.
 3. Deal the second card up to the player's hand & the second card up to the dealer's hand.
 4. If the dealer has an Ace or 10 point card showing:
-	a. If the dealer has Black Jack and the player doesn't, the dealer wins.
-	b. If both hands have Black Jack the hand is a push.
-	c. If the dealer does not have Black Jack play continues.
+	* If the dealer has Black Jack and the player doesn't, the dealer wins.
+	* If both hands have Black Jack the hand is a push.
+	* If the dealer does not have Black Jack play continues.
 5. Enter the player hit phase.
-	a. If player hits, deal another card and calculate total. End hand if the player busts.
-	b. If the player stands, exit the player hit phase.
+	* If player hits, deal another card and calculate total. End hand if the player busts.
+	* If the player stands, exit the player hit phase.
 6. Enter the dealer hit phase.
-	a. The dealer must hit on 16 or less.
-	b. If dealer hits, deal another card and calculate total. End hand if the dealer busts.
-	c. When the dealer stands (total is over 17 and under 22) determine winner or push and end the hand.
+	* The dealer must hit on 16 or less.
+	* If dealer hits, deal another card and calculate total. End hand if the dealer busts.
+	* When the dealer stands (total is over 17 and under 22) determine winner or push and end the hand.
 
 <br>
 
