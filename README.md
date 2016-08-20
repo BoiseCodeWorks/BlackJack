@@ -29,17 +29,21 @@ When the 'Play' or 'Play Again' button is clicked:
 6. Enter the dealer hit phase.
 	* The dealer must hit on 16 or less.
 	* If dealer hits, deal another card and calculate total. End hand if the dealer busts.
-	* When the dealer stands (total is over 17 and under 22) determine winner or push and end the hand.
+	* When the dealer stands (total is over 16 and under 22) determine winner or push and end the hand.
 
 <br>
 
 #### Dealing/Hitting
 
+A deck array containing 52 cards is provided.
+
+A dealer hand array and player hand array is provided.
+
 A shuffle function is provided. 
 
-After the shuffle, dealing should consist of taking cards from the front of the deck and putting them in the dealer/player hands.
+After the shuffle, dealing should consist of taking cards from the front of the shuffled deck array and putting them in the dealer/player hand array.
 
-Hitting would also pull cards from the front of the shuffled deck.
+Hitting would also pull cards from the front of the shuffled deck array.
 
 <br>
 
@@ -56,6 +60,7 @@ getCardValue(card)
 #### Some Coding Standards
 
 All event handlers should be bound within app.js
+
 All DOM manipulation should be done within app.js
 
 <br>
@@ -67,3 +72,5 @@ Don't forget an Ace can be a 1 or 11 when calculating a hand value.
 There are card PNG images in the 'img' folder with filenames that match the card text. For example, the Ace of Spades card text is 'AS' and the card image is 'AS.png'.
 
 There is also a card back image file named 'back.png'.
+
+A links to Bootstrap and Font Awesome are already in index.html.
