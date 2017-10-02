@@ -49,11 +49,17 @@ Hitting would also pull cards from the front of the shuffled deck array.
 
 #### Suggested Functions
 
-dealHands()
+deal()
+
+hit()
+
+stand()
 
 getHandValue(hand)
 
 getCardValue(card)
+
+showWinner()
 
 <br>
 
