@@ -61,6 +61,8 @@ getCardValue(card)
 
 showWinner()
 
+playAgain()
+
 <br>
 
 #### Some Coding Standards
