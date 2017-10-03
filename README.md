@@ -47,25 +47,42 @@ Hitting would also pull cards from the front of the shuffled deck array.
 
 <br>
 
-#### Suggested Functions
+#### Required Functions
 
-deal()
+* deal
+	* Call the shuffle function.
+	* Deal cards to the player and dealer.
+	* Calculate the hand values for both hands.
+	* Determine a Black Jack as described in #4 above.
+	* If either hand is a Black Jack call showWinner.
 
-hit()
+* hit
+	* Add another card to the player hand.
+	* Calculate the player's hand value.
+	* If the value is greater than 21 call showWinner.
 
-stand()
+* stand
+	* Enter the dealer hit phase as described in #6 above.
 
-getHandValue(hand)
+* getHandValue(hand)
+	* Return a numeric value for the cards in a hand.
 
-getCardValue(card)
+* getCardValue(card)
+	* Return a numeric value for a single card.
 
-showWinner()
+* showWinner()
+	* Display the hand winner.
+	* Display the 'Play Again' button.
 
-playAgain()
+* playAgain()
+	* Clear the dealer and player hands.
+	* Call the deal function.
 
 <br>
 
 #### Some Coding Standards
+
+All code should be in an IIFE
 
 All event handlers should be bound within app.js
 
@@ -81,7 +98,7 @@ There are card PNG images in the 'img' folder with filenames that match the card
 
 There is also a card back image file named 'back.png'.
 
-A links to Bootstrap and Font Awesome are already in index.html.
+Links to Bootstrap and Font Awesome are already in index.html.
 
 <br>
 
